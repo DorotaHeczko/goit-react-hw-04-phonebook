@@ -1,0 +1,22 @@
+.listBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.button {
+  background-color: rgb(239, 162, 118);
+  box-shadow: 2px 2px 10px 3px rgba(224, 117, 53, 1);
+  border: none;
+  padding: 7px;
+  width: 100px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}

@@ -1,0 +1,25 @@
+.Filter_box {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.formInput {
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 15px;
+  font-size: 18px;
+  box-shadow: 4px 4px 10px 3px rgba(224, 117, 53, 1);
+  border: none;
+}
+
+.formInput:focus {
+  border: none;
+  outline: none;
+}
